@@ -72,15 +72,17 @@ header a:hover {
   background-color: green;
 	cursor: pointer;
 }
-
 #press {
 	margin-bottom: 20px;
 }
 
 #press img {
-	border: 4px #ccc solid;
+	border: 5px #ccc solid;
 	padding: 1px;
-	transition: background-color 2s ease;
+}
+
+#press img:hover {
+	border: 5px rgb(111,127,122) solid;
 }
 
 footer {
