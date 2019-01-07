@@ -68,6 +68,11 @@ header a:hover {
 #link {
 	transition: background-color 2s ease;
 }
+#link a:hover {
+  background-color: green;
+	cursor: pointer;
+}
+
 #press {
 	margin-bottom: 20px;
 }
@@ -77,13 +82,8 @@ header a:hover {
 	padding: 1px;
 	transition: background-color 2s ease;
 }
-#press img:hover {
-  background-color: green;
-	cursor: pointer;
-}
 
 footer {
 	text-align: right;
 	background: #fff;
 }
-
